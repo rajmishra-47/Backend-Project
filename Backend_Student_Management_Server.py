@@ -90,13 +90,3 @@ async def Delete_student(id:str):
 
     collection.delete_one({"_id": student_id})
     return {}
-
-# if __name__=="__main__":
-#     import uvicorn
-#     uvicorn.run(app,host="0.0.0.0",port=8000)
-
-
-
-
-# rajnandanmishra422
-# SzvkgHXupuEptzjQ
